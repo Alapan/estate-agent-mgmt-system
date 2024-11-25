@@ -1,0 +1,26 @@
+.navbar-list {
+  list-style-type: none;
+  background-color: rgba(224, 224, 224, 1);
+  margin-block: 0;
+  padding-block: 1rem;
+}
+
+.navbar-list-item {
+  display: inline-block;
+}
+
+.navbar-list-item a {
+  color: black;
+}
+
+.navbar-list-item:not(:first-child) {
+  margin-inline-start: 4rem;
+}
+
+.navbar-list-item {
+  display: inline-block;
+}
+
+.active {
+  text-decoration: underline;
+}
