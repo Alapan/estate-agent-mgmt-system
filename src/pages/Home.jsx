@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import 'font-awesome/css/font-awesome.min.css';
 import PropertyCard from '../components/PropertyCard';
 import LargeScreenForm from '../components/LargeScreenForm';
 import SmallScreenForm from '../components/SmallScreenForm';
