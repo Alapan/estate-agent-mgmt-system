@@ -1,0 +1,196 @@
+{
+  "buyers": [
+    {
+      "firstName": "Mike",
+      "lastName": "Smith",
+      "email": "mike.smith@gmail.com",
+      "id": "1"
+    },
+    {
+      "firstName": "Colin",
+      "lastName": "Jones",
+      "email": "colinjones@gmail.com",
+      "id": "2"
+    },
+    {
+      "firstName": "Sarah",
+      "lastName": "Fletcher",
+      "email": "sarah.fletcher@gmail.com",
+      "id": "3"
+    },
+    {
+      "firstName": "Hermione",
+      "lastName": "Granger",
+      "email": "hermione.granger@gmail.com",
+      "id": "4"
+    },
+    {
+      "firstName": "Sam",
+      "lastName": "Schwartz",
+      "email": "sam.schwartz@gmail.com",
+      "id": "5"
+    },
+    {
+      "id": "4398",
+      "firstName": "Alapan",
+      "lastName": "Mukherjee",
+      "email": "alapan@gmail.com"
+    },
+    {
+      "id": "2fa5",
+      "firstName": "test",
+      "lastName": "name",
+      "email": "test@name"
+    }
+  ],
+  "sellers": [
+    {
+      "firstName": "Peter",
+      "lastName": "Parker",
+      "email": "peter.parker@gmail.com",
+      "id": "1"
+    },
+    {
+      "firstName": "Maggie",
+      "lastName": "May",
+      "email": "maggie.nay432@gmail.com",
+      "id": "2"
+    },
+    {
+      "firstName": "Laura",
+      "lastName": "Fletcher",
+      "email": "laura.fletcher@gmail.com",
+      "id": "3"
+    },
+    {
+      "firstName": "Harry",
+      "lastName": "Abbott",
+      "email": "harry.abbott@gmail.com",
+      "id": "4"
+    },
+    {
+      "firstName": "Clive",
+      "lastName": "Jones",
+      "email": "clivejones@gmail.com",
+      "id": "5"
+    },
+    {
+      "id": "d96c",
+      "firstName": "Test",
+      "lastName": "Name",
+      "email": "test@name.com"
+    },
+    {
+      "id": "cc86",
+      "firstName": "Alapan",
+      "lastName": "Mukherjee",
+      "email": "alapan@mukherjee.com"
+    },
+    {
+      "id": "b647",
+      "firstName": "Test",
+      "lastName": "Name",
+      "email": "test@name.com"
+    }
+  ],
+  "properties": [
+    {
+      "address": "8 West Marketgait",
+      "price": "£150000",
+      "numberOfBedrooms": 3,
+      "numberOfBathrooms": 2,
+      "hasGarden": true,
+      "sellerId": "1",
+      "status": "FORSALE",
+      "images": [
+        "property1.webp",
+        "property2.webp"
+      ],
+      "id": "b88e"
+    },
+    {
+      "address": "7 Ward Road",
+      "price": "£250000",
+      "numberOfBedrooms": 2,
+      "numberOfBathrooms": 1,
+      "hasGarden": false,
+      "sellerId": "3",
+      "status": "WITHDRAWN",
+      "images": [
+        "property3.webp",
+        "property4.webp"
+      ],
+      "id": "b2dc"
+    },
+    {
+      "address": "152 West Marketgait",
+      "price": "£350000",
+      "numberOfBedrooms": 3,
+      "numberOfBathrooms": 2,
+      "hasGarden": false,
+      "sellerId": "2",
+      "status": "WITHDRAWN",
+      "images": [
+        "property5.webp",
+        "property6.webp"
+      ],
+      "id": "3d63"
+    },
+    {
+      "address": "8 Baldovan Terrace",
+      "price": "£200000",
+      "numberOfBedrooms": 2,
+      "numberOfBathrooms": 1,
+      "hasGarden": false,
+      "sellerId": "5",
+      "status": "SOLD",
+      "images": [
+        "property7.webp",
+        "property8.webp"
+      ],
+      "id": "bfd6"
+    },
+    {
+      "id": "dc4c",
+      "address": "70 Ward Road",
+      "price": "£ 210000",
+      "numberOfBedrooms": "2",
+      "numberOfBathrooms": "1",
+      "hasGarden": false,
+      "sellerId": "2",
+      "status": "FORSALE",
+      "images": [
+        "property9.webp",
+        "property10.webp"
+      ]
+    },
+    {
+      "id": "8905",
+      "address": "44 Wishart Archway",
+      "price": "£ 200000",
+      "numberOfBedrooms": "2",
+      "numberOfBathrooms": "1",
+      "hasGarden": false,
+      "sellerId": "4",
+      "status": "FORSALE",
+      "images": [
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "ab6d",
+      "address": "34 Wishart Archway",
+      "price": "£200000",
+      "numberOfBedrooms": "2",
+      "numberOfBathrooms": "1",
+      "hasGarden": true,
+      "sellerId": "3",
+      "status": "FORSALE",
+      "images": [
+        "property10.webp",
+        ""
+      ]
+    }
+  ]
+}
