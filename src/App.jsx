@@ -1,15 +1,19 @@
-import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Buyers from './pages/Buyers';
 import Sellers from './pages/Sellers';
 import Properties from './pages/Properties';
+import Navbar from './components/Navbar';
+import RegistrationForm from './components/RegistrationForm';
+import AddPropertyForm from './components/AddPropertyForm';
+import Home from './pages/Home';
 
 function App() {
 
   return (
     <BrowserRouter>
       <header className='site-header'>
-        <div className='logo-container'>
+        <a className='logo-container' href='/'>
           <img
             src='./home-logo.gif'
             alt='Logo for website'
@@ -17,31 +21,23 @@ function App() {
             height={100}
             className='logo'
           />
-        </div>
-        <div className='heading-container'>
+        </a>
+        <a className='heading-container' href='/'>
           <h2 className='heading'>homehub</h2>
           <small className='subheading'>Connecting buyers and sellers to manage properties</small>
-        </div>
+        </a>
       </header>
       <main>
+        <Navbar />
         <Routes>
+          <Route path='/' element={<Home />}/>
           <Route path='/sellers' element={<Sellers />}/>
           <Route path='/buyers' element={<Buyers />} />
-          <Route path='/properties' element={<Properties /> } />
+          <Route path='/properties' element={<Properties searchResults={[]}/> } />
+          <Route path='/sellers/register' element={<RegistrationForm userType={'Seller'}/>}/>
+          <Route path='/buyers/register' element={<RegistrationForm userType={'Buyer'}/>} />
+          <Route path='/properties/add' element={<AddPropertyForm/>} />
         </Routes>
-        <section className='icons-section'>
-          <div className='icon-container'>
-            <div className='image-container'></div>
-            <img src='./seller.svg' width={140} height={140}/>
-          </div>
-          <Link to='/sellers'>Sellers</Link>
-          <div className='icon-container'>
-            <img src='./buyer.svg' width={140} height={140}/>
-          </div>
-          <div className='icon-container'>
-            <img src='./property.svg' width={140} height={140}/>
-          </div>
-        </section>
       </main>
     </BrowserRouter>
   )

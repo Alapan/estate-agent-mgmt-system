@@ -13,6 +13,23 @@
   text-align: center;
 }
 
+.register-btn, .add-property-btn {
+  border-radius: 2rem;
+  background: black;
+  color: white;
+  display: inline-block;
+  height: 2rem;
+  width: 10rem;
+  text-align: center;
+  padding-block-start: 0.5rem;
+}
+
+.container {
+  margin-inline: 2rem;
+  margin-block: 2rem;
+  height: 100%;
+}
+
 .heading {
   color: white;
   margin-block-end: 0;
@@ -20,18 +37,6 @@
 
 .subheading {
   color: white;
-}
-
-.navbar-list {
-  list-style-type: none;
-}
-
-.navbar-list-item {
-  display: inline-block;  
-}
-
-.navbar-list-item:nth-child(2), .navbar-list-item:nth-child(3) {
-  margin-inline-start: 4rem;
 }
 
 .icons-section {
@@ -56,6 +61,13 @@
   align-items: center;
 }
 
+.link-list {
+  list-style-type: none;
+}
+
+button {
+  border: 1px solid blue;
+}
 
 @media (min-width: 768px) {
   .site-header {
