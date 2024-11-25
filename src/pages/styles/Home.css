@@ -1,0 +1,129 @@
+.hero-overlay-container {
+  background-image: url('/buying-selling.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-height: 40vh;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+@media (min-width: 1100px) {
+  .hero-overlay-container {
+    background-position: center center;
+    background-size: cover;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.hero-heading {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  word-wrap: break-word;
+  position: relative;
+  margin-inline: 1rem;
+  top: 5rem;
+}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+  .hero-heading {
+    top: 5rem;
+    font-size: 3rem;
+    padding-inline: 2rem;
+  }
+}
+
+.form-input {
+  height: 2rem;
+  width: 6rem;
+}
+
+.form-select {
+  height: 2.5rem;
+  width: 4rem;
+  margin-block-start: 1.5rem;
+}
+
+.no-results {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.search-results {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.search-results-heading {
+  text-align: center;
+}
+
+.form-container-lg {
+  display: none;
+}
+
+.form-container-sm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-block-end: 2rem;
+}
+
+.search-sm {
+  display: block;
+}
+
+.search-btn-sm {
+  text-align: center;
+  width: 80%;
+  height: 2rem;
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1100px){
+  .search-results {
+    grid-template-columns: repeat(2, 1fr);
+    margin-inline: 2rem;
+  }
+
+  .hero-heading {
+    font-size: 3rem;
+    position: static;
+  }
+
+  .form-container-lg {
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-sm {
+    display: none;
+  }
+
+  .form-container-sm {
+    display: none;
+  }
+  
+  .form-input {
+    height: 2rem;
+    width: 6rem;
+  }
+  
+  .form-select {
+    height: 2.5rem;
+    width: 4rem;
+    margin-block-start: 1.5rem;
+  }
+}
