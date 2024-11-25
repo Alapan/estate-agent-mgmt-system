@@ -1,0 +1,21 @@
+.form-field {
+  margin-block-end: 2rem;
+  font-weight: bold;
+}
+
+.form-field label {
+  margin-inline-end: 2rem;
+}
+
+.form-field input {
+  width: 20rem;
+  height: 4vh;
+  border-radius: 4px;
+  border: 0.5px solid grey;
+}
+
+.form-button {
+  background-color: green;
+  color: white;
+  border-color: transparent;
+}
